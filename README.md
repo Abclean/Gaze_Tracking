@@ -1,3 +1,7 @@
+
+This project is an eye gaze detection system that uses computer vision techniques to analyze the direction of a person's gaze—whether they are looking left, right, or center. It uses the dlib library for facial detection and landmark prediction and processes three sample images (pic1.jfif, pic2.jpg, and pic3.jpg) to determine gaze direction. The results are then visualized using bar charts, pie charts, and stacked charts to provide clear insights into gaze behavior across different images. This project also integrates the context of Social Anxiety Disorder (SAD) by potentially associating gaze direction patterns—like avoiding eye contact or frequently looking away—with anxiety-related behavior. The aim is to simulate how people with SAD might behave when exposed to certain stimuli. To run the project, ensure that the file shape_predictor_68_face_landmarks.dat is downloaded and placed in your working directory, as it's essential for identifying eye regions. This project is compatible with Google Colab, where cv2.imshow() is replaced with cv2_imshow() for image display.
+
+
 #  Eye Gaze Direction Detection with Dlib & OpenCV
 
 This project detects the **eye gaze direction** (Left, Center, Right) from images using facial landmarks and visualizes the results using various **graphs and charts**.
@@ -32,6 +36,7 @@ https://github.com/davisking/dlib-models/raw/master/shape_predictor_68_face_land
    - Pie chart of percentage distribution.
    - Horizontal bar chart.
    - Stacked bar chart (per image).
+     
 #Graphs
 
 - Total gaze direction bar chart.
